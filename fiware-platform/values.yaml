@@ -1,7 +1,8 @@
-source: https://github.com/FIWARE-Ops/marinera
+source: https://github.com/jtudelag/marinera.git
 release: demo
-destination_namespace: &destination demo
-branch: &branch main
+#destination_namespace: &destination demo
+destination_namespace: &destination jorge-test-gitops
+branch: &branch fiware-summit
 secretsEnabled: &secretsEnabled false
 host: &host
 tlsSecret: &tlsSecret
